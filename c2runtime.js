@@ -26265,15 +26265,15 @@ cr.behaviors.solid = function(runtime)
 	behaviorProto.acts = new Acts();
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Keyboard,
 	cr.plugins_.Multiplayer,
 	cr.plugins_.Function,
+	cr.plugins_.Keyboard,
 	cr.plugins_.Text,
-	cr.plugins_.SpriteFontPlus,
 	cr.plugins_.TextBox,
+	cr.plugins_.C2WebSocket,
 	cr.plugins_.Touch,
 	cr.plugins_.Sprite,
-	cr.plugins_.C2WebSocket,
+	cr.plugins_.SpriteFontPlus,
 	cr.behaviors.solid,
 	cr.behaviors.Bullet,
 	cr.behaviors.Fade,

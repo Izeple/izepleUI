@@ -1,6 +1,6 @@
 ﻿{
-	"name": "ownUi",
-	"short_name": "ownUi",
+	"name": "izepleUI",
+	"short_name": "izepleUI",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "any",
